@@ -1,0 +1,67 @@
+{#
+/**
+ * @author    reganlawton
+ * @copyright Copyright (c) 2017 reganlawton
+ * @link      https://github.com/wrav
+ * @package   Oembed
+ * @since     1.1.6
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{{ forms.lightswitchField({
+    label: "Enable Cache"|t,
+    instructions: ""|t,
+    id: 'enableCache',
+    name: 'enableCache',
+    on: settings.enableCache,
+}) }}
+
+{{ forms.lightswitchField({
+    label: "Enable GDPR"|t,
+    instructions: "Currently supporting Youtube & Vimeo"|t,
+    id: 'enableGdpr',
+    name: 'enableGdpr',
+    on: settings.enableGdpr,
+}) }}
+
+{{ forms.lightswitchField({
+    label: "Enable GDPR compliant with CookieBot"|t,
+    instructions: "Check this box to enable GDPR compliance with CookieBot. This ensures that your website follows the necessary regulations for user privacy."|t,
+    id: 'enableGdprCookieBot',
+    name: 'enableGdprCookieBot',
+    on: settings.enableGdprCookieBot,
+}) }}
+
+{{ forms.lightswitchField({
+    label: "Previews hidden by default"|t,
+    instructions: "This will hide preview in collapsable component"|t,
+    id: 'previewHidden',
+    name: 'previewHidden',
+    on: settings.previewHidden,
+}) }}
+
+{{ forms.lightswitchField({
+    label: "Enable notifications"|t,
+    instructions: ""|t,
+    id: 'enableNotifications',
+    name: 'enableNotifications',
+    on: settings.enableNotifications,
+}) }}
+
+{{ forms.textField({
+    label: "Notification Email"|t,
+    instructions: "Will default to system email sender"|t,
+    id: 'notificationEmail',
+    name: 'notificationEmail',
+    value: settings.notificationEmail,
+}) }}
+
+{{ forms.textField({
+    label: "Access token for Facebook/Instagram"|t,
+    instructions: "Create an app in the <a href='https://developers.facebook.com/apps/' target='_blank'>Facebook developer console</a>, enable the oEmbed product and use that <a href='https://developers.facebook.com/docs/plugins/oembed/#access-tokens' target='_blank'>access token</a>"|t,
+    id: 'facebookKey',
+    name: 'facebookKey',
+    value: settings.facebookKey,
+}) }}

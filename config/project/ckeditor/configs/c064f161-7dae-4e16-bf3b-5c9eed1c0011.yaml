@@ -1,0 +1,75 @@
+headingLevels:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+name: 'Full Function'
+options:
+  alignment:
+    options:
+      - left
+      - right
+  fontSize:
+    options:
+      - tiny
+      - small
+      - big
+      - huge
+  style:
+    definitions:
+      -
+        classes:
+          - red-heading
+        element: h2
+        name: 'Red heading'
+      -
+        classes:
+          - vibrant-code
+        element: pre
+        name: 'Vibrant code'
+      -
+        classes:
+          - marker
+        element: span
+        name: Marker
+toolbar:
+  - heading
+  - style
+  - bold
+  - italic
+  - link
+  - alignment
+  - underline
+  - strikethrough
+  - subscript
+  - superscript
+  - code
+  - anchor
+  - textPartLanguage
+  - fontSize
+  - fontColor
+  - fontFamily
+  - fontBackgroundColor
+  - insertImage
+  - mediaEmbed
+  - htmlEmbed
+  - blockQuote
+  - insertTable
+  - codeBlock
+  - bulletedList
+  - numberedList
+  - todoList
+  - outdent
+  - indent
+  - horizontalLine
+  - pageBreak
+  - removeFormat
+  - selectAll
+  - findAndReplace
+  - undo
+  - redo
+  - sourceEditing
+  - createEntry
+  - '|'

@@ -1,0 +1,30 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 316babaf-fc56-41df-a499-9976421133e8 # Our Gear
+handle: generalPages
+maxAuthors: 1
+name: 'General Pages'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  59436fea-6b90-4cee-a947-21b3b6e4f233: # Scuti
+    enabledByDefault: true
+    hasUrls: true
+    template: general.twig
+    uriFormat: '{parent.uri}/{slug}'
+structure:
+  maxLevels: 3
+  uid: 3bdab36b-4c27-4585-bac0-df1c9ca44705
+type: structure

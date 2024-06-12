@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 9fe164b6-e142-42d4-a859-25b31e42f5c1 # Story
+handle: storyListing
+maxAuthors: 1
+name: 'Story Listing'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  59436fea-6b90-4cee-a947-21b3b6e4f233: # Scuti
+    enabledByDefault: true
+    hasUrls: true
+    template: stories/index.twig
+    uriFormat: stories
+type: single

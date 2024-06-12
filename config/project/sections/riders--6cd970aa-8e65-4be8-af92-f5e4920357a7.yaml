@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 4d450fc1-c5fd-4c42-a4fb-25beb360bdc2 # Riders
+handle: riders
+maxAuthors: 1
+name: Riders
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  59436fea-6b90-4cee-a947-21b3b6e4f233: # Scuti
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: single

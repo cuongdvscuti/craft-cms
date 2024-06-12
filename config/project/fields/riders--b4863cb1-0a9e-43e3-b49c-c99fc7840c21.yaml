@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: riders
+instructions: null
+name: Riders
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - 4d450fc1-c5fd-4c42-a4fb-25beb360bdc2 # Riders
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: true
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

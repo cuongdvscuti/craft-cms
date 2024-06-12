@@ -1,0 +1,95 @@
+color: null
+fieldLayouts:
+  8bc3784e-2241-4c00-9f0c-9f50ef3ff139:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 5010973b-7991-4117-8b82-3e9ab5eeba23 # Full Name
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: de7535e4-6273-4205-ae6c-fa755774e81d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d9daa349-d9f9-4bf3-9091-5a578b2a552d # Photo
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9794ed4e-ce29-4498-8188-54602b26242f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f08c62bc-e2f5-45eb-8b2f-8ff8526bfa19 # Description
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bb62ec91-fa71-4b76-ab9f-f52500b3cdf6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: Riders
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 2ac33c35-84d5-4119-874b-f7abeda5f8a0
+            userCondition: null
+            warning: null
+            width: 75
+        name: Riders
+        uid: 307c66ea-6b97-4ddd-b583-bf8e35888e2a
+        userCondition: null
+handle: riders
+hasTitleField: true
+icon: alien-8bit
+name: Riders
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

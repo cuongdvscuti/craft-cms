@@ -1,0 +1,65 @@
+color: null
+fieldLayouts:
+  ee9e603d-0ce6-43b2-9e49-23a1a5f7ea18:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 0b144e6b-eb89-471e-89df-5efad5226d0e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: baa18f77-daaa-4d4b-8cdd-de92c4ee8513 # Link Destination
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b9e74521-0287-477d-831a-72f5147b99a9
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Nav Links'
+        uid: 14dff93d-d1f6-440f-8d47-481a808fa4e1
+        userCondition: null
+handle: navLinks
+hasTitleField: true
+icon: ''
+name: 'Nav Links'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,55 @@
+{
+    "name": "xpertbot/craft-wheelform",
+    "description": "Craft CMS 5 Form administrator with Database integration",
+    "type": "craft-plugin",
+    "version": "4.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "WheelForm",
+        "Wheel Form"
+    ],
+    "support": {
+        "docs": "https://github.com/xpertbot/craft-wheelform/blob/master/README.md",
+        "issues": "https://github.com/xpertbot/craft-wheelform/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wheel Interactive",
+            "homepage": "https://wheelinteractive.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "wheelform\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Wheel Form",
+        "handle": "wheelform",
+        "hasCpSettings": true,
+        "hasCpSection": true,
+        "changelogUrl": "https://github.com/xpertbot/craft-wheelform/CHANGELOG.md",
+        "components": {
+            "mailer": "Wheelform\\Mailer"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "craftcms/phpstan": "dev-main",
+        "craftcms/rector": "dev-main"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true,
+            "craftcms/plugin-installer": true
+        }
+    }
+}

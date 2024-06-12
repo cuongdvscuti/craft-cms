@@ -1,0 +1,137 @@
+color: null
+fieldLayouts:
+  531d79db-b521-453d-8e03-068a8d31a2ee:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: ae10822c-f271-429b-b754-50a40a018716
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5496f37d-fc7c-4c76-b53e-35397608cd29 # Hero Title
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dfee94c6-fb78-4995-89a4-116a538eea3f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cfd245f8-e6f7-4ad2-a898-95d413f3df58 # Hero Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 95c069de-843f-4b96-a584-7bcf9affec44
+            userCondition: null
+            warning: null
+            width: 100
+        name: Hero
+        uid: d0d6f64e-20a6-4ce4-98e7-69e651171687
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: d40a1c25-741c-4849-8348-e596ab8b248b # Riders Intro Content
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9b84cdfb-fa93-4247-93e1-54acadec8fa1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b4863cb1-0a9e-43e3-b49c-c99fc7840c21 # Riders
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b6ee647b-527b-41fe-84f4-16978a820971
+            userCondition: null
+            warning: null
+            width: 100
+        name: Riders
+        uid: bf9006f1-ae23-4441-b2e8-4d326a524f0c
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: aa6375c2-ea71-4cfa-90d1-52aff1c2aad2 # Featured Story
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4a3d5bbc-0e31-4ad7-9b35-a973b185677a
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Featured Story'
+        uid: d21bfd85-0689-441a-b0ec-4b59fc7e8522
+        userCondition: null
+handle: home
+hasTitleField: true
+icon: house
+name: Home
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

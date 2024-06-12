@@ -1,0 +1,97 @@
+dateModified: 1718002226
+email:
+  fromEmail: cuongdv@scuti.asia
+  fromName: Scuti
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+meta:
+  __names__:
+    0c54e1ca-22d9-4f84-8a0d-b0019ce8d179: Home # Home
+    1a988c4a-0f97-4500-a381-dc7b6d5304d0: Scuti # Scuti
+    1d8ad413-14ee-4179-9864-2e89321c94d7: Stories # Stories
+    1e4fe761-7062-47b2-98bf-4c6aebc83172: Footer # Footer
+    1f94c568-3a05-4333-90ea-b4cdebdf25ee: Home # Home
+    2a8db0ae-ff12-478c-954c-5b07ace4aa8b: About # About
+    3ea1984e-78de-4418-9bb0-cc05617ee683: 'General Pages' # General Pages
+    4b710bc4-ffab-4749-b1ac-593a130757cd: Simple # Simple
+    4d450fc1-c5fd-4c42-a4fb-25beb360bdc2: Riders # Riders
+    6cd970aa-8e65-4be8-af92-f5e4920357a7: Riders # Riders
+    9fe164b6-e142-42d4-a859-25b31e42f5c1: Story # Story
+    25f00b07-2575-4b02-af5b-41d68e66d38c: 'Nav Links' # Nav Links
+    30e89d1e-62c5-4109-8676-79eedc8c5ba9: Header # Header
+    63b27951-e179-4a54-ac27-e86237c2e1ad: Uploads # Uploads
+    293cd221-554e-4e27-8a74-10417297032a: 'Nav Links' # Nav Links
+    316babaf-fc56-41df-a499-9976421133e8: 'Our Gear' # Our Gear
+    5496f37d-fc7c-4c76-b53e-35397608cd29: 'Hero Title' # Hero Title
+    59436fea-6b90-4cee-a947-21b3b6e4f233: Scuti # Scuti
+    5010973b-7991-4117-8b82-3e9ab5eeba23: 'Full Name' # Full Name
+    66950751-f7df-4159-8f3b-edad9c7d4661: Photos # Photos
+    aa6375c2-ea71-4cfa-90d1-52aff1c2aad2: 'Featured Story' # Featured Story
+    b4863cb1-0a9e-43e3-b49c-c99fc7840c21: Riders # Riders
+    baa18f77-daaa-4d4b-8cdd-de92c4ee8513: 'Link Destination' # Link Destination
+    c064f161-7dae-4e16-bf3b-5c9eed1c0011: 'Full Function' # Full Function
+    cfd245f8-e6f7-4ad2-a898-95d413f3df58: 'Hero Image' # Hero Image
+    d8fb254e-043f-41e3-b7f5-dc65605407ee: 'Short Description' # Short Description
+    d9daa349-d9f9-4bf3-9091-5a578b2a552d: Photo # Photo
+    d40a1c25-741c-4849-8348-e596ab8b248b: 'Riders Intro Content' # Riders Intro Content
+    d7603898-3725-4c58-bfa8-2f44344b4ced: 'Rich Text' # Rich Text
+    dcd08dca-e8fe-452c-98b7-01d6ee06b1cf: 'Public Schema' # Public Schema
+    e2084b79-597f-49d5-b200-b1e45d061df3: 'Story Listing' # Story Listing
+    e884229e-d0fe-46c4-8cfa-b1af56a93cfd: Stories # Stories
+    f08c62bc-e2f5-45eb-8b2f-8ff8526bfa19: Description # Description
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  minify:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  oembed:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+  seo:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.2.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 4.0.0
+  wheelform:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+    settings:
+      cp_label: Forms
+      disabled_fields: ''
+      from_email: dkcuongz@gmail.com
+      from_name: ''
+      recaptcha_min_score: '0.5'
+      recaptcha_public: ''
+      recaptcha_secret: ''
+      recaptcha_version: '2'
+      success_message: 'Thank You! we will review your submission shortly.'
+      volume_id: ''
+system:
+  edition: solo
+  live: true
+  name: Scuti
+  schemaVersion: 5.0.0.20
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true
